@@ -1,0 +1,10 @@
+head,relation,tail
+质量问题,affect_compnent,构件
+质量问题,appear_on_location,部位
+预制活动,cause_Hazards,质量隐患
+质量隐患,cause_Problems,质量问题
+预制活动,control_Parameter,技术参数
+管片预制项目,has_Activity,预制活动
+质量问题,has_Measures,管控措施
+预制活动,use_equipment,设备
+预制活动,use_material,材料
